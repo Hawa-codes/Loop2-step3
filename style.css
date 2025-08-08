@@ -76,6 +76,11 @@ h2 {
     padding: 10px;
 }
 
+header h2 {
+    position: relative;
+    right: 10px;
+}
+
 .arrow {
     width: 24px;
     height: 24px;
@@ -165,8 +170,9 @@ footer {
 }
 
 footer h2 {
+    position: relative;
     font-size: 14px;
     color: #ffffff;
-    margin-top: 15px;
-    left: 66px;
+    margin-top: 7px;
+    right: 80px;
 }

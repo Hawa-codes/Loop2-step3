@@ -7,7 +7,6 @@
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #b286e7, #9d88eb, #9e88eb, #8e89ef);
-    color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +28,7 @@ main {
 }
 
 header {
-    background: linear-gradient(to right, #bb7eda, #a87ad2);
+    background: linear-gradient(to right, #bb7eda, #a87ad2, #a97ad2);
     display: flex;
     flex-direction: row;
     align-items: space-between;
@@ -104,6 +103,7 @@ ul {
 
 li{
     margin-bottom: 12px;
+    cursor: pointer;
 }
 
 .vertical-line-2, .vertical-line-3, .vertical-line-4, .vertical-line-5 {
@@ -138,7 +138,7 @@ li{
 }
 
 footer {
-    background: linear-gradient(to right, #bb7eda, #a87ad2);
+    background: linear-gradient(to right, #bb7eda, #a87ad2, #9177ce);
     width: 100%;
     height: 25%;
     display: flex;
